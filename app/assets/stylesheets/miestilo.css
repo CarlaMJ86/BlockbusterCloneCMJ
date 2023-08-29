@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: #FFD700; 
+}
+
+h6{
+    color:  #0b3b8e;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link{
+    color:  #0b3b8e;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+.form-group{
+    color: #FFD700; 
+}

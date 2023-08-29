@@ -1,0 +1,15 @@
+<div id="<<%= dom_id movie %>" class="card text-bg-dark">
+  <div class="card-body">
+    <h5 class="card-title">Película N°<%= movie.id %></h5>
+
+    <p class="card-text">
+      <strong>Nombre Pelicula: </strong>
+      <%= movie.name %>
+    </p>
+
+    <p class="card-text">
+      <strong>Cliente: </strong>
+      <%= movie.client.name %>
+    </p>
+  </div>
+</div>

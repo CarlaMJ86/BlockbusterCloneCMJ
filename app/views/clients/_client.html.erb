@@ -1,0 +1,21 @@
+<div id="<%= dom_id(client) %>" class="card text-bg-dark">
+  <div class="card-body">
+    <h5 class="card-title">N° Cliente <%= client.id %></h5>
+
+    <p class="card-text">
+      <strong>Nombre Cliente:</strong>
+      <%= client.name %>
+    </p>
+
+    <p class="card-text">
+      <strong>Edad:</strong>
+      <%= client.age %>
+    </p>
+
+    <p class="card-text">
+      <strong>Dirección:</strong>
+      <%= client.direction %>
+    </p>
+  </div>
+</div>
+
